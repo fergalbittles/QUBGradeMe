@@ -1,0 +1,93 @@
+#tests_are_running, #server_error, #tests_passed_message, #logs_are_fetching, #generic_error, #login_error {
+    margin-bottom: 5px;
+    display: none;
+}
+
+#average_execution_time, #execution_time {
+    display: none;
+}
+
+.test-result-output {
+    display: none;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom right, #e3e3e3 , #b0b0b0)
+}
+
+.test-status {
+    padding: 10px 0;
+    background-color: #ff9354;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 2px solid black;
+}
+
+.test-title {
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    background-color: #cfeffc;
+}
+
+.test-stats {
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+.test-stats td {
+    width: 33.3333333333333333%;
+    padding: 15px 0;
+}
+
+.expected-actual {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.expected-actual td {
+    padding: 15px 0;
+}
+
+#chart-wrapper-inner {
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+
+#chart-wrapper {
+    display: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    width: 80%;
+    margin: 35px auto 0 auto;
+}
+
+.graph-wrapper {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    width: 80%;
+    margin: 35px auto 0 auto;
+}
+
+.graph-wrapper-inner {
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+
+#graph-wrapper-1, 
+#graph-wrapper-2, 
+#graph-wrapper-3,
+#graph-wrapper-4, 
+#graph-wrapper-5, 
+#graph-wrapper-6,
+#graph-wrapper-7,
+#graph-wrapper-8,
+#graph-wrapper-9 {
+    display: none;
+}
+

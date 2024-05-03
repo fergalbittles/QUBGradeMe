@@ -1,0 +1,9 @@
+image: php:8.1
+
+# Install dependencies
+before_script:
+  - bash ci/docker_install.sh > /dev/null
+
+test:app:
+  script:
+    - phpunit --configuration phpunit_myapp.xml
